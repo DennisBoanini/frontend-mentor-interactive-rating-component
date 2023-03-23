@@ -1,0 +1,124 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: var(--interactive-rating-font-family);
+  font-size: var(--interactive-rating-body-font-size);
+  color: var(--interactive-rating-neutral-white)
+}
+
+.card {
+  background: var(--interactive-rating-neutral-very-dark-blue);
+  width: 400px;
+  height: auto;
+  border-radius: 2rem;
+  padding: 2rem 1.65rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.thank-you {
+  align-items: center;
+}
+
+.star {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background: var(--interactive-rating-neutral-dark-blue);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: var(--interactive-rating-neutral-medium-grey);
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.ratings .rate {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  cursor: pointer;
+  background: var(--interactive-rating-neutral-dark-blue);
+  border: 0;
+  color: var(--interactive-rating-neutral-medium-grey);
+}
+
+.rate:hover {
+  background: var(--interactive-rating-primary-orange);
+  color: var(--interactive-rating-neutral-white);
+}
+
+.rate.selected {
+  background: var(--interactive-rating-neutral-light-grey);
+  color: var(--interactive-rating-neutral-white);
+}
+
+.submit {
+  border-radius: 20px;
+  border: none;
+  padding: 15px;
+  text-transform: uppercase;
+  background: var(--interactive-rating-primary-orange);
+  letter-spacing: 0.25rem;
+  color: var(--interactive-rating-neutral-white)
+}
+
+.submit:hover {
+  background: var(--interactive-rating-neutral-white);
+  color: var(--interactive-rating-primary-orange);
+  cursor: pointer;
+}
+
+.submit.forbidden {
+  cursor: not-allowed;
+}
+
+.given-rate {
+  color: var(--interactive-rating-primary-orange);
+  background: var(--interactive-rating-neutral-dark-blue);
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin-top: 2rem;
+}
+
+.reset {
+  border-radius: 30px;
+  border: none;
+  padding: 15px;
+  text-transform: uppercase;
+  background: var(--interactive-rating-primary-orange);
+  letter-spacing: 0.25rem;
+  color: var(--interactive-rating-neutral-white);
+  width: 90%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.reset:hover {
+  background: var(--interactive-rating-neutral-white);
+  color: var(--interactive-rating-primary-orange);
+  cursor: pointer;
+}

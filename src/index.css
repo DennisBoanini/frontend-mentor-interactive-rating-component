@@ -1,0 +1,17 @@
+:root {
+  --interactive-rating-primary-orange: hsl(25, 97%, 53%);
+  --interactive-rating-neutral-white: hsl(0, 0%, 100%);
+  --interactive-rating-neutral-light-grey: hsl(217, 12%, 63%);
+  --interactive-rating-neutral-medium-grey: hsl(216, 12%, 54%);
+  --interactive-rating-neutral-dark-blue: hsl(213, 19%, 18%);
+  --interactive-rating-neutral-very-dark-blue: hsl(216, 12%, 8%);
+  --interactive-rating-body-font-size: 15px;
+  --interactive-rating-font-family: 'Overpass', sans-serif;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  height: 100vh;
+  background-color: #26272b;
+}

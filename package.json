@@ -1,12 +1,13 @@
 {
   "name": "interactive-rating-component",
   "version": "0.0.0",
-  "homepage": "https://dennisboanini.github.io/interactive-rating-component/",
+  "homepage": "https://dennisboanini.github.io/frontend-mentor-interactive-rating-component",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
